@@ -8,6 +8,48 @@
 </head>
 
 <body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: linear-gradient(to right, rgb(82, 173, 209), rgb(18, 116, 207));
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #008cff;  
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0044ff;
+        }
+
+        #resultado {
+            margin-top: 20px;
+        }
+    </style>
+
     <h2>Informe a quantidade de livros e o valor por livro:</h2>
     <form id="formulario">
         <label for="livro">Quantidade de livros:</label>
